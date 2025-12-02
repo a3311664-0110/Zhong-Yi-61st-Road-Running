@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
@@ -66,7 +66,8 @@
                 guidelines: {
                     title: "活動須知",
                     description: "參賽規則、安全注意事項與衣著規定",
-                    url: "https://gemini.google.com/share/5537fdba708e",
+                    // 👇 這裡已經修改為連結到本地的 guidelines.html 檔案
+                    url: "./guidelines.html",
                     icon: "file"
                 }
             },
