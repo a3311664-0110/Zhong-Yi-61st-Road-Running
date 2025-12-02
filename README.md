@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>忠義國小體育六十一週年校慶路跑</title>
-    <!-- 引入 Tailwind CSS (用於快速排版) -->
+    <!-- 引入 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- 引入 Babel 用於瀏覽器端解析 JSX (讓 React 可以在單一 HTML 檔中運作) -->
+    <!-- 引入 Babel 用於解析 JSX -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <!-- 自訂動畫樣式 -->
     <style>
@@ -66,8 +66,7 @@
                 guidelines: {
                     title: "活動須知",
                     description: "參賽規則、安全注意事項與衣著規定",
-                    // 👇 這裡已經修改為連結到本地的 guidelines.html 檔案
-                    url: "./guidelines.html",
+                    url: "https://gemini.google.com/share/5537fdba708e",
                     icon: "file"
                 }
             },
